@@ -39,7 +39,7 @@ export default {
     <section>
         <div class="container py-4">
             <div class="row justify-content-center g-5 px-5">
-                <div v-for="purchase in purchases" class="col d-flex align-items-center">
+                <div v-for="purchase in purchases" class="col-6 col-md d-flex align-items-center">
                     <div class="image me-2">
                         <img :src="getImageUrl(purchase.image)" :alt="purchase.text">
                     </div>
@@ -56,7 +56,7 @@ export default {
 section {
     background-color: $brand-primary;
 
-    .col {
+    [class^=col] {
         .image {
             width: 40px;
             height: 40px;
