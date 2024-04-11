@@ -1,6 +1,18 @@
 <script>
 export default {
-    name: 'AppHeader'
+    name: 'AppHeader',
+    data(){
+       return {
+        links: ['Characters','Comics','Movies','Tv','Games','Collectibles','Videos','Fans','News','Shop'
+        ],
+        activeItem: null
+       };
+    },
+    methods: {
+        activeLink(index){
+            this.activeItem = index;
+        }
+    }
 }
 </script>
 
@@ -16,45 +28,9 @@ export default {
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="navbar-nav mb-2 mb-lg-0">
-                        <li class="nav-item me-4">
-                            <a class="nav-link ms-active" href="#">Characters</a>
-                            <div class="ms-active"></div>
-                        </li>
-                        <li class="nav-item me-4">
-                            <a class="nav-link" href="#">Comics</a>
-                            <div></div>
-                        </li>
-                        <li class="nav-item me-4">
-                            <a class="nav-link" href="#">Movies</a>
-                            <div></div>
-                        </li>
-                        <li class="nav-item me-4">
-                            <a class="nav-link" href="#">Tv</a>
-                            <div></div>
-                        </li>
-                        <li class="nav-item me-4">
-                            <a class="nav-link" href="#">Games</a>
-                            <div></div>
-                        </li>
-                        <li class="nav-item me-4">
-                            <a class="nav-link" href="#">Collectibles</a>
-                            <div></div>
-                        </li>
-                        <li class="nav-item me-4">
-                            <a class="nav-link" href="#">Videos</a>
-                            <div></div>
-                        </li>
-                        <li class="nav-item me-4">
-                            <a class="nav-link" href="#">Fans</a>
-                            <div></div>
-                        </li>
-                        <li class="nav-item me-4">
-                            <a class="nav-link" href="#">News</a>
-                            <div></div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Shop</a>
-                            <div></div>
+                        <li v-for="link, index in links" class="nav-item me-4" @click="activeLink(index)">
+                            <a class="nav-link" :class="{'ms-active': index == activeItem}" href="#">{{link}}</a>
+                            <div :class="{'ms-active': index == activeItem}"></div>
                         </li>
                     </ul>
                 </div>
@@ -78,7 +54,7 @@ export default {
             color: $brand-primary;
             }
         }
-        
+
         div {
             &.ms-active {
                 height: 5px;

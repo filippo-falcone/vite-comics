@@ -23,7 +23,7 @@ export default {
             {
                 name: 'Periscope',
                 image: 'footer-periscope'
-            },
+            }
            ] 
         };
     },
