@@ -29,8 +29,8 @@ export default {
     },
     methods:{
         getImageUrl(name) {
-        return new URL(`../assets/img/${name}.png`, import.meta.url).href
-}
+            return new URL(`../assets/img/${name}.png`, import.meta.url).href
+        }
     }
 }
 </script>
