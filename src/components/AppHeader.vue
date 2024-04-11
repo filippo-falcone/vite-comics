@@ -68,15 +68,17 @@ export default {
 
 .navbar-nav {
     text-transform: uppercase;
+
     .nav-item {
         .nav-link{
             &.ms-active {
                 color: $brand-primary;
             }
-            &:hover{
+            &:hover {
             color: $brand-primary;
             }
         }
+        
         div {
             &.ms-active {
                 height: 5px;
