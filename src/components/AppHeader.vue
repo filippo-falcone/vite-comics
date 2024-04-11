@@ -30,7 +30,7 @@ export default {
                     <ul class="navbar-nav mb-2 mb-lg-0">
                         <li v-for="link, index in links" class="nav-item me-4" @click="activeLink(index)">
                             <a class="nav-link" :class="{'ms-active': index == activeItem}" href="#">{{link}}</a>
-                            <div :class="{'ms-active': index == activeItem}"></div>
+                            <div class="d-none d-md-block" :class="{'ms-active': index == activeItem}"></div>
                         </li>
                     </ul>
                 </div>
