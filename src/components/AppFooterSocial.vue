@@ -63,12 +63,12 @@ section {
             padding: 14px;
             background-color: $brand-secondary-light;
             border: 1px solid $brand-primary;
-            color: #ffffff;
+            color: $brand-light;
             text-transform: uppercase;
             transition: transform 0.5s;
             
             &:hover{
-                background-color: #ffffff;
+                background-color: $brand-light;
                 color: $brand-primary;
                 font-size: 900;
                 transform: scale(1.1);

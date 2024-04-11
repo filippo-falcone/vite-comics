@@ -13,7 +13,7 @@ export default {
                         <div class="col">
                             <div class="row">
                                 <div class="col">
-                                    <div class="title fs-4 text-light">Dc comics</div>
+                                    <div class="title fs-4">dc comics</div>
                                     <ul>
                                         <li><a href="#">Characters</a></li>
                                         <li><a href="#">Comics</a></li>
@@ -25,7 +25,7 @@ export default {
                                     </ul>
                                 </div>
                                 <div class="col">
-                                    <div class="title fs-4 text-light">Dc</div>
+                                    <div class="title fs-4">shop</div>
                                     <ul>
                                         <li><a href="#">Shop DC</a></li>
                                         <li><a href="#">Shop DC Collectibles</a></li>
@@ -34,7 +34,7 @@ export default {
                             </div>
                         </div>
                         <div class="col">
-                            <div class="title fs-4 text-light">Dc comics</div>
+                            <div class="title fs-4">dc</div>
                             <ul>
                                 <li><a href="#">Terms Of Use</a></li>
                                 <li><a href="#">Privacy policy (New)</a></li>
@@ -50,7 +50,7 @@ export default {
                             </ul>
                         </div>
                         <div class="col">
-                            <div class="title fs-4 text-light">Dc comics</div>
+                            <div class="title fs-4">sites</div>
                             <ul>
                                 <li><a href="#">DC</a></li>
                                 <li><a href="#">MAD Magazine</a></li>
@@ -77,6 +77,7 @@ section {
     
     .footer-link {
         .title {
+            color: $brand-light;
             text-transform: uppercase;
             font-weight: 900;
         }
@@ -85,6 +86,9 @@ section {
             a {
                 font-size: .875rem;
                 color: $brand-tertiary;
+                &:hover {
+                    color: $brand-primary;
+                }
             }
         }
     }

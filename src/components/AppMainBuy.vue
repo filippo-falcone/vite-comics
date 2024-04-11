@@ -38,9 +38,9 @@ export default {
 <template>
     <section>
         <div class="container py-4">
-            <div class="row g-3 px-5">
+            <div class="row justify-content-center g-5 px-5">
                 <div v-for="purchase in purchases" class="col d-flex align-items-center">
-                    <div class="image me-3">
+                    <div class="image me-2">
                         <img :src="getImageUrl(purchase.image)" :alt="purchase.text">
                     </div>
                     <a href="#" class="text">{{ purchase.text }}</a>
@@ -69,9 +69,9 @@ section {
         }
 
         .text{
-            color: #ffffff;
+            font-size: 14px;
+            color: $brand-light;
             text-transform: uppercase;
-
         }
     }
 }
