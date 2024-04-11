@@ -1,10 +1,12 @@
 <script>
 import AppFooterLink from './AppFooterLink.vue';
+import AppFooterSocial from './AppFooterSocial.vue';
 
 export default {
     name: 'AppFooter',
     components:{
-        AppFooterLink
+        AppFooterLink,
+        AppFooterSocial
     }
 }
 </script>
@@ -12,15 +14,8 @@ export default {
 <template>
     <footer>
         <AppFooterLink></AppFooterLink>
+        <AppFooterSocial></AppFooterSocial>
     </footer>
 </template>
 
-<style scoped lang="scss">
-@use '../style/partials/variables' as *;
-
-footer {
-    background-image: url(../assets/img/footer-bg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-</style>
+<style scoped lang="scss"></style>

@@ -5,7 +5,8 @@ export default {
 </script>
 
 <template>
-    <div class="container d-flex justify-content-between">
+    <section>
+        <div class="container d-flex justify-content-between">
             <div class="footer-link d-flex flex-wrap gap-5 py-5">
                 <div class="container">
                     <div class="row">
@@ -61,32 +62,38 @@ export default {
                     </div>
                 </div>
             </div>
-            <div class="footer-img">
-            </div>
+            <div class="footer-img"></div>
         </div>
+    </section>
 </template>
 
 <style scoped lang="scss">
 @use '../style/partials/variables' as *;
 
-.footer-link {
-    .title {
-        text-transform: uppercase;
-        font-weight: 900;
-    }
+section {
+    background-image: url(../assets/img/footer-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     
-    ul {
-        a {
-            font-size: .875rem;
-            color: $brand-tertiary;
+    .footer-link {
+        .title {
+            text-transform: uppercase;
+            font-weight: 900;
+        }
+
+        ul {
+            a {
+                font-size: .875rem;
+                color: $brand-tertiary;
+            }
         }
     }
-}
 
-.footer-img {
-    width: 563px;
-    background-image: url(../assets/img/dc-logo-bg.png);
-    background-repeat: no-repeat;
-    background-position: center;
+    .footer-img {
+        width: 563px;
+        background-image: url(../assets/img/dc-logo-bg.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 }
 </style>
