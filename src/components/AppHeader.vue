@@ -41,31 +41,37 @@ export default {
 
 <style scoped lang="scss">
 @use '../style/partials/variables' as *;
+header {
+    background-color: $brand-light;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 
-.navbar-nav {
-    text-transform: uppercase;
+    .navbar-nav {
+        text-transform: uppercase;
 
-    .nav-item {
-        position: relative;
+        .nav-item {
+            position: relative;
 
-        .nav-link{
+            .nav-link{
 
-            &.ms-active {
+                &.ms-active {
+                    color: $brand-primary;
+                }
+                &:hover {
                 color: $brand-primary;
+                }
             }
-            &:hover {
-            color: $brand-primary;
-            }
-        }
 
-        div { 
-            &.ms-active {
-                width: 86%;
-                height: .3125rem;
-                background-color: $brand-primary;
-                position: absolute;
-                bottom: -110%;
-                left: 9%;
+            div { 
+                &.ms-active {
+                    width: 86%;
+                    height: .3125rem;
+                    background-color: $brand-primary;
+                    position: absolute;
+                    bottom: -110%;
+                    left: 9%;
+                }
             }
         }
     }
