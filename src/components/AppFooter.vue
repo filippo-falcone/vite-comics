@@ -162,9 +162,9 @@ export default {
     
     .container {
         button {
-            padding: 14px;
+            padding: .875rem;
             background-color: $brand-secondary-light;
-            border: 1px solid $brand-primary;
+            border: .0625rem solid $brand-primary;
             color: $brand-light;
             text-transform: uppercase;
             transition: transform 0.5s;

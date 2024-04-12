@@ -38,7 +38,7 @@ export default {
 <template>
     <section>
         <div class="container py-4">
-            <div class="row justify-content-center g-5 px-5">
+            <div class="row justify-content-center g-4 px-5">
                 <div v-for="purchase in purchases" class="col-6 col-md d-flex align-items-center">
                     <div class="image me-2">
                         <img :src="getImageUrl(purchase.image)" :alt="purchase.text">
@@ -58,8 +58,8 @@ section {
 
     [class^=col] {
         .image {
-            width: 40px;
-            height: 40px;
+            width: 2.5rem;
+            height: 2.5rem;
 
             img {
                 width: 100%;
@@ -69,7 +69,7 @@ section {
         }
 
         .text{
-            font-size: 14px;
+            font-size: .875rem;
             color: $brand-light;
             text-transform: uppercase;
         }
