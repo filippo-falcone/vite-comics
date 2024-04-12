@@ -18,7 +18,7 @@ export default {
 
 <template>
     <header>
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-xl">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="../assets/img/dc-logo.png" alt="DC Logo">

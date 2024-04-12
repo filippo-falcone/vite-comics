@@ -147,10 +147,11 @@ export default {
         }
 
         .footer-img {
-            width: 563px;
+            width: 50%;
             background-image: url(../assets/img/dc-logo-bg.png);
             background-repeat: no-repeat;
             background-position: center;
+            background-size: cover;
         }
     }
 }
