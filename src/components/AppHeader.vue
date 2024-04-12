@@ -46,7 +46,10 @@ export default {
     text-transform: uppercase;
 
     .nav-item {
+        position: relative;
+
         .nav-link{
+
             &.ms-active {
                 color: $brand-primary;
             }
@@ -55,10 +58,14 @@ export default {
             }
         }
 
-        div {
+        div { 
             &.ms-active {
-                height: 5px;
+                width: 86%;
+                height: .3125rem;
                 background-color: $brand-primary;
+                position: absolute;
+                bottom: -110%;
+                left: 9%;
             }
         }
     }
