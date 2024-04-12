@@ -103,11 +103,11 @@ export default {
         <!-- /Link -->
         <!-- Social -->
         <div class="footer-social">
-            <div class="container d-flex justify-content-between align-items-center py-4">
+            <div class="container d-flex flex-wrap justify-content-between align-items-center py-4">
                 <button>Sing-up Now!</button>
                 <div class="social d-flex align-items-center gap-3">
                     <div class="text">Follow Us</div>
-                    <div class="social-circle d-flex align gap-2">
+                    <div class="social-circle d-flex flex-wrap gap-2">
                         <div v-for="image in images" class="circle">
                             <img :src="getImageUrl(image.image)" :alt="image.name">
                         </div>
