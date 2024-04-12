@@ -40,43 +40,43 @@ export default {
                     "type": "comic book"
                 },
                 {
-                    "thumb": "https://static.wikia.nocookie.net/marvel_dc/images/5/50/Batman_Beyond_v.1_1.jpg/revision/latest?cb=20080809201655",
+                    "thumb": "https://upload.wikimedia.org/wikipedia/it/8/8d/Batman_beyond_1-195x300.jpg",
                     "price": "$2.99",
                     "series": "Batman Beyond",
                     "type": "comic book"
                 },
                 {
-                    "thumb": "https://static.wikia.nocookie.net/marvel_dc/images/0/0d/Batman_Superman_Vol_1_1.jpg/revision/latest/scale-to-width-down/1200?cb=20130627211607",
+                    "thumb": "https://www.fumetto-online.it/ew/ew_albi/images/DC%20COMICS/323412_20141217060820_large.jpg",
                     "price": "$3.99",
                     "series": "Batman/Superman",
                     "type": "comic book"
                 },
                 {
-                    "thumb": "https://static.wikia.nocookie.net/marvel_dc/images/c/cf/Batman_Superman_Annual_Vol_2_1.jpg/revision/latest?cb=20200929145132",
+                    "thumb": "https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/09/Batman-Superman-Annual-Cv1.jpg",
                     "price": "$4.99",
                     "series": "Batman/Superman Annual",
                     "type": "comic book"
                 },
                 {
-                    "thumb": "https://static.wikia.nocookie.net/marvel_dc/images/5/54/Batman_The_Joker_War_Zone_Vol_1_1.jpg/revision/latest?cb=20200929124651",
+                    "thumb": "https://m.media-amazon.com/images/I/41nGyVF7C2L.jpg",
                     "price": "$5.99",
                     "series": "Batman: The Joker War Zone",
                     "type": "comic book"
                 },
                 {
-                    "thumb": "https://static.wikia.nocookie.net/marvel_dc/images/6/64/Batman_Three_Jokers_Collected.jpg/revision/latest?cb=20201123054610",
+                    "thumb": "https://www.ibs.it/images/9788828737711_0_536_0_75.jpg",
                     "price": "$6.99",
                     "series": "Batman: Three Jokers",
                     "type": "comic book"
                 },
                 {
-                    "thumb": "https://static.wikia.nocookie.net/marvel_dc/images/f/f8/Batman_White_Knight_Presents_Harley_Quinn_Vol_1_1.jpg/revision/latest?cb=20201124094800",
+                    "thumb": "https://i.ebayimg.com/images/g/YgYAAOSwu0BfjPo5/s-l1200.jpg",
                     "price": "$4.99",
                     "series": "Batman: White Knight Presents: Harley Quinn",
                     "type": "comic book"
                 },
                 {
-                    "thumb": "https://static.wikia.nocookie.net/marvel_dc/images/c/c8/Catwoman_Vol_2_1.jpg/revision/latest?cb=20160303223223",
+                    "thumb": "https://mycomics.it/wp-content/uploads/sites/16/2022/12/FUMCAWOPA0008.jpg",
                     "price": "$16.99",
                     "series": "Catwoman",
                     "type": "graphic novel"
