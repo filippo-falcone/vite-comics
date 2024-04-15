@@ -3,11 +3,6 @@ export default {
     name: 'ProductCard',
     props: {
         cardInfo: Object
-    },
-    methods: {
-        getImageUrl(name) {
-            return new URL(`${name}`, import.meta.url).href
-        }
     }
 }
 </script>
@@ -15,7 +10,7 @@ export default {
 <template>
     <div class="col-6 col-md-4 col-lg-3 col-xl-2">
         <div class="img-container">
-            <img :src="getImageUrl(cardInfo.thumb)"  :alt="cardInfo.series">
+            <img :src="cardInfo.thumb"  :alt="cardInfo.series">
         </div>
         <div class="text pt-4">{{ cardInfo.series }}</div>
     </div>
