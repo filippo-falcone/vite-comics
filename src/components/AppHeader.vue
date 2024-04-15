@@ -5,7 +5,7 @@ export default {
        return {
         links: ['Characters','Comics','Movies','Tv','Games','Collectibles','Videos','Fans','News','Shop'
         ],
-        activeItem: null
+        activeItem: 1
        };
     },
     methods: {
