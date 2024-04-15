@@ -1,10 +1,10 @@
 <script>
-import ProductCard from './ProductCard.vue';
+import ComicsCard from './ComicsCard.vue';
 
 export default {
-    name: 'AppMainContent',
+    name: 'ComicsList',
     components:{
-        ProductCard
+        ComicsCard
     },
     data() {
         return {
@@ -101,7 +101,7 @@ export default {
                     <div class="fs-3">current series</div>
                 </div>
                 <div class="row py-4 g-3">
-                    <ProductCard v-for="comic in comics" :cardInfo="comic"></ProductCard>
+                    <ComicsCard v-for="comic in comics" :cardInfo="comic"></ComicsCard>
                 </div>
                 <div class="load-more rectangle py-2 text-center">
                     <div>load more</div>

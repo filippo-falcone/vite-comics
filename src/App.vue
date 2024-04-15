@@ -1,13 +1,13 @@
 <script>
 import AppHeader from './components/AppHeader.vue';
-import AppMainContent from './components/AppMainContent.vue';
+import ComicsList from './components/ComicsList.vue';
 import AppMainBuy from './components/AppMainBuy.vue';
 import AppFooter from './components/AppFooter.vue';
 
 export default {
   components: {
     AppHeader,
-    AppMainContent,
+    ComicsList,
     AppMainBuy,
     AppFooter
   }
@@ -17,7 +17,7 @@ export default {
 <template>
   <AppHeader></AppHeader>
   <main>
-    <AppMainContent></AppMainContent>
+    <ComicsList></ComicsList>
     <AppMainBuy></AppMainBuy>
   </main>
   <AppFooter></AppFooter>
